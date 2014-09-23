@@ -8,60 +8,60 @@
 #   None
 #
 # Commands:
-#   hubot give <number> points to <username> - award <number> points to <username>
-#   hubot give <username> <number> points - award <number> points to <username>
-#   hubot take <number> points from <username> - take away <number> points from <username>
-#   hubot how many points does <username> have? - list how many points <username> has
-#   hubot take all points from <username> - removes all points from <username>
+#   hubot give <number> beers to <username> - award <number> beers to <username>
+#   hubot give <username> <number> beers - award <number> beers to <username>
+#   hubot take <number> beers from <username> - take away <number> beers from <username>
+#   hubot how many beers does <username> have? - list how many beers <username> has
+#   hubot take all beers from <username> - removes all beers from <username>
 #
 # Author:
 #   brettlangdon
 #
 
-points = {}
+beers = {}
 
-award_points = (msg, username, pts) ->
-    points[username] ?= 0
-    points[username] += parseInt(pts)
+award_beers = (msg, username, pts) ->
+    beers[username] ?= 0
+    beers[username] += parseInt(pts)
     msg.send pts + ' Awarded To ' + username
 
 save = (robot) ->
-    robot.brain.data.points = points
+    robot.brain.data.beers = beers
 
 module.exports = (robot) ->
     robot.brain.on 'loaded', ->
-        points = robot.brain.data.points or {}
+        beers = robot.brain.data.beers or {}
 
     robot.respond /give (\d+) beers to (.*?)\s?$/i, (msg) ->
-        award_points(msg, msg.match[2], msg.match[1])
+        award_beers(msg, msg.match[2], msg.match[1])
         save(robot)
 
     robot.respond /give (.*?) (\d+) beers/i, (msg) ->
-        award_points(msg, msg.match[1], msg.match[2])
+        award_beers(msg, msg.match[1], msg.match[2])
         save(robot)
     
     robot.respond /take all beers from (.*?)\s?$/i, (msg) ->
         username = msg.match[1]
-        points[username] = 0
+        beers[username] = 0
         msg.send username + ' WHAT DID YOU DO?!'
         save(robot)
 
     robot.respond /take (\d+) beers from (.*?)\s?$/i, (msg) ->
          pts = msg.match[1]
          username = msg.match[2]
-         points[username] ?= 0
+         beers[username] ?= 0
          
-         if points[username] is 0
+         if beers[username] is 0
              msg.send username + ' Does Not Have Any Beers To Take Away'
          else
-             points[username] -= parseInt(pts)
+             beers[username] -= parseInt(pts)
              msg.send pts + ' Beers Taken Away From ' + username
 
          save(robot)
 
     robot.respond /how many beers does (.*?) have\??/i, (msg) ->
         username = msg.match[1]
-        points[username] ?= 0
+        beers[username] ?= 0
 
-        msg.send username + ' Has ' + points[username] + ' Points'
+        msg.send username + ' Has ' + beers[username] + ' Points'
        
