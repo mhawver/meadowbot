@@ -63,5 +63,5 @@ module.exports = (robot) ->
         username = msg.match[1]
         beers[username] ?= 0
 
-        msg.send username + ' Has ' + beers[username] + ' Points'
+        msg.send username + ' Has ' + beers[username] + ' Beers'
        
