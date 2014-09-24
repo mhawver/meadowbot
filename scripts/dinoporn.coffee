@@ -15,13 +15,13 @@ dinos = [
   "http://truyenhinhanvien.vn/Images/Contents/ngocninh/20131105/kienthuc-dinosex-03_cdrc.jpg",
   "https://lh6.googleusercontent.com/-hU7lpb3YgM0/UlX-gW3jwqI/AAAAAAAAdsA/abrdV-PW8Ow/w480-h320/DragonCarSex_500.gif",
   "http://4.bp.blogspot.com/-DSGFRPq5138/UZFfluwu9BI/AAAAAAAAruw/WJ6GB-_daS8/s1600/PDVD_175.BMP",
-  "http://img.thesun.co.uk/aidemitlum/archive/01697/SNF2530FX1_1697767a.jpg",
   "http://moneyandshit.com/wp-content/uploads/2010/08/dinosaurs_fucking.jpg",
   "http://origin-www.helium3game.com/dni-media/mu-44/media-22874-77340.jpg",
   "http://i.ytimg.com/vi/fp672MQ2NVc/0.jpg",
   "http://cdn.studentnewsie.com/wp-content/uploads/2013/04/dinosaur-loving.jpg",
   "http://i.dailymail.co.uk/i/pix/2012/07/11/article-2172128-14051A39000005DC-746_306x471.jpg",
   "http://graneyandthepig.files.wordpress.com/2010/02/dinosaursex.jpg",
+  "http://imgur.com/KfjztGW",
   "http://www.anorak.co.uk/wp-content/uploads/2013/03/dinosaur-sex.jpeg"
 ]
 
