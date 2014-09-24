@@ -21,5 +21,5 @@ cannedResponse = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /(can't connect|connection issue|being blocked|connection refused|trouble connecting|connection refused|timeout)/i, (msg) ->
+  robot.hear /(can't connect|connection issue|connection issues|being blocked|connection refused|trouble connecting|connection refused|timeout|timeouts)/i, (msg) ->
     msg.send msg.random cannedResponse
