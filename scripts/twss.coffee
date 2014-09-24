@@ -6,5 +6,5 @@
 
 
 module.exports = (robot) ->
-  robot.hear /(won't fit|too big|doesn't fit|can't fit|too small)/i, (msg) ->
+  robot.hear /(won't fit|doesn't fit|going to fit|can't fit|too small|too big|give that a wack)/i, (msg) ->
     msg.send "That's what she said"
