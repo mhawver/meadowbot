@@ -10,5 +10,5 @@ dino = [
 
 
 module.exports = (robot) ->
-  robot.hear /fuck you/i, (msg) ->
+  robot.hear /(fuck you)/i, (msg) ->
     msg.send msg dino
