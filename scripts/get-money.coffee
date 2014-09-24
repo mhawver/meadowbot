@@ -14,7 +14,7 @@
 #   mhawver
 
 
-stacked-paper = [
+stackedPaper = [
   "http://www.surebeatswork.com/wp-content/uploads/2009/09/obamablltw6.gif",
   "http://cdn0.dailydot.com/uploaded/images/original/2012/1/29/jan._31_mayweather_bigger.gif",
   "https://www.auckland.ac.nz/theinsideword/wp-content/uploads/2014/07/money-gif.gif",
@@ -35,5 +35,5 @@ stacked-paper = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /getmoney|get money/i, (msg) ->
-    msg.send msg.random stacked-paper
+  robot.hear /(getmoney|get money)/i, (msg) ->
+    msg.send msg.random stackedPaper
