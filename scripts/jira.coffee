@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#	None
+#	jira - listen for jira ticket numbers, respond with whole link
 #
 # Author:
 #   mhawver
