@@ -15,4 +15,4 @@
 
 module.exports = (robot) ->
   robot.hear /^GO-/i, (msg) ->
-    msg.send 'https://jira.grubhubseamless.com/browse/(msg)'
+    msg.send 'https://jira.grubhubseamless.com/browse/'(msg)
