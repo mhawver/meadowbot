@@ -22,6 +22,7 @@ dinos = [
   "http://i.dailymail.co.uk/i/pix/2012/07/11/article-2172128-14051A39000005DC-746_306x471.jpg",
   "http://graneyandthepig.files.wordpress.com/2010/02/dinosaursex.jpg",
   "http://imgur.com/KfjztGW",
+  "https://faustuscrow.files.wordpress.com/2014/07/dinosaur_reptilian_brainstem_dance_goetia_girls.gif?w=408&h=287",
   "http://www.anorak.co.uk/wp-content/uploads/2013/03/dinosaur-sex.jpeg"
 ]
 
