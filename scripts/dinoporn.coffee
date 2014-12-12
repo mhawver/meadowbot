@@ -25,8 +25,7 @@ dinos = [
   "https://faustuscrow.files.wordpress.com/2014/07/dinosaur_reptilian_brainstem_dance_goetia_girls.gif?w=408&h=287",
   "http://www.anorak.co.uk/wp-content/uploads/2013/03/dinosaur-sex.jpeg",
   "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif",
-  "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif",
-  "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif",
+  "http://i.stack.imgur.com/UvSGL.gif",
   "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif"
 
 ]
