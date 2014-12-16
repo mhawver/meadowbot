@@ -26,6 +26,7 @@ dinos = [
   "http://www.anorak.co.uk/wp-content/uploads/2013/03/dinosaur-sex.jpeg",
   "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif",
   "http://i.stack.imgur.com/UvSGL.gif",
+  "http://media.giphy.com/media/Twdd5NvXxRU3u/giphy.gif",
   "https://p.gr-assets.com/540x540/fit/hostedimages/1380873617/3140288.gif"
 
 ]
