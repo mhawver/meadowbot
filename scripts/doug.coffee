@@ -11,7 +11,7 @@
 #	None
 #
 # Author:
-#   pmaterer
+#  mhawver 
 
 
 dougs = [
