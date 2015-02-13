@@ -22,7 +22,6 @@ module.exports = (robot) ->
   robot.hear /(dog|doug|douglas)/i, (msg) ->
     msg.send msg.random dougs
 
-module.exports = (robot) ->
   robot.respond /dbomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
     msg.send dougs for dougs in [1..count]
