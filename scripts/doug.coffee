@@ -19,6 +19,6 @@ dougs = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /doug|douglas/i, (msg) ->
+  robot.respond /doug|douglas/i, (msg) ->
     msg.send msg.random dougs
 
