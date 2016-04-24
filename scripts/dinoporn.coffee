@@ -34,5 +34,5 @@ dinos = [
 
 
 module.exports = (robot) ->
-  robot.hear /dinosex|dino|hawver|dinosaur|sex/i, (msg) ->
+  robot.hear /dinosex|dino|dinosaur|sex/i, (msg) ->
     msg.send msg.random dinos
